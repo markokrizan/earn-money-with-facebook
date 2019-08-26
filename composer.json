@@ -1,0 +1,9 @@
+{
+    "name": "markokrizan/php-mailer",
+    "description": "php-gmail-example",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "license": "MIT"
+}
