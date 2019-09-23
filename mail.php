@@ -31,14 +31,14 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'facbookmailer@gmail.com';              // SMTP username - GMAIL USERNAME HERE
-    $mail->Password   = 'facebookmailer123';                    // SMTP password - GMAIL PASSWORD HERE
+    $mail->Username   = 'maileraccountusername@gmail.com';              // SMTP username - GMAIL USERNAME HERE
+    $mail->Password   = 'maileraccountpassword';                    // SMTP password - GMAIL PASSWORD HERE
     $mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('theblazingoffers@gmail.com', 'Blazing offers mailer');
-    $mail->addAddress('markokrizan64@gmail.com');
+    $mail->setFrom('yourmailhere@gmail.com', 'From name');
+    $mail->addAddress('toadresshere@gmail.com');
     //$mail->addAddress('theblazingoffers@gmail.com');     // Add a recipient
 
     //Mulitple adresses, cc, and bcc examples:
